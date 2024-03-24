@@ -1,0 +1,207 @@
+/* Counts */
+#counts .row {
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  #counts .row {
+    margin-top: 0rem;
+  }
+}
+
+.counts {
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  padding: 50px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #f1f6fe;
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #ffc107;
+  color: #fff;
+  width: 78px;
+  height: 78px;
+  line-height: 0;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #062b5b;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+/* Topbar */
+@media (max-width: 768px) {
+  #topbar {
+    display: none;
+  }
+}
+
+#topbar .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+#topbar .navbar-nav .nav-link {
+  color: #6c757d;
+}
+
+/* Navbar */
+#navbar {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    height: auto;
+  }
+}
+
+#navbar .navbar-nav .nav-link.active,
+#navbar .navbar-nav .nav-link:hover {
+  color: #198754;
+  border-bottom: 4px solid #198754;
+}
+
+#navbar .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: small;
+}
+
+/* Carousel */
+#carouselExampleControlsNoTouching .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carouselExampleControlsNoTouching video {
+  margin-top: 0;
+  height: 750px;
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+#carouselExampleControlsNoTouching img {
+  width: 450px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #carouselExampleControlsNoTouching img {
+    height: 100px;
+    width: auto;
+  }
+
+  #carouselExampleControlsNoTouching video {
+    margin-top: 0;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+}
+
+/* Berita & Pengumuman */
+#berita a {
+  color: #000;
+  font-size: medium;
+  text-decoration: none;
+}
+
+#berita a:hover {
+  color: #198754;
+}
+
+#judul a {
+  color: #198754;
+  font-size: medium;
+  text-decoration: none;
+}
+
+#judul a:hover {
+  color: #000;
+}
+
+/* About */
+#about .row {
+  display: flex;
+  height: 500;
+}
+
+@media (max-width: 768px) {
+  #about .row {
+    height: auto;
+  }
+}
+
+/* Footer */
+#footer .footer {
+  background-color: #181818;
+}
+
+#footer h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3db166;
+}
+
+#footer p {
+  color: rgb(137, 137, 137);
+}
+
+#footer .mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+#footer .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+
+#footer .gmap_iframe {
+  width: 100% !important;
+  height: 200px !important;
+}
+
+@media (max-width: 768px) {
+  #footer .footer {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+  }
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
